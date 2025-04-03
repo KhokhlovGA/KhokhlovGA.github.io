@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосалон - Продажа автомобилей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Автосалон - Лучшие автомобили</h1>
+    </header>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">Каталог</a>
+        <a href="#">Контакты</a>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <img src="car1.jpg" alt="Автомобиль 1">
+            <h2>BMW X5</h2>
+            <p>Цена: 5 000 000 руб.</p>
+        </div>
+        <div class="card">
+            <img src="car2.jpg" alt="Автомобиль 2">
+            <h2>Audi Q7</h2>
+            <p>Цена: 4 500 000 руб.</p>
+        </div>
+        <div class="card">
+            <img src="car3.jpg" alt="Автомобиль 3">
+            <h2>Mercedes-Benz GLE</h2>
+            <p>Цена: 6 000 000 руб.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Автосалон. Все права защищены.</p>
+    </footer>
+</body>
+</html>
